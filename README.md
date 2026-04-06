@@ -1,22 +1,16 @@
-# 🎯 AI Interview Preparation Platform
+# React + Vite
 
-## 🌟 Features
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-- **AI-Generated Questions** - Get personalized interview questions based on your role and experience
-- **Real-Time Feedback** - Receive AI-powered feedback on your answers
-- **Session Tracking** - Save and track your interview practice sessions
-- **Progress Monitoring** - See your improvement over time
-- **Role-Based Questions** - Questions tailored for Frontend, Backend, Full-stack, and more
+Currently, two official plugins are available:
 
-## 🛠️ Tech Stack
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
 
-| Technology | Purpose |
-|------------|---------|
-| React.js | Frontend framework |
-| Node.js | Backend runtime |
-| Express.js | API server |
-| MongoDB | Database |
-| Tailwind CSS | Styling |
-| Google Gemini AI | Question generation |
+## React Compiler
 
-## 📁 Project Structure
+The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+
+## Expanding the ESLint configuration
+
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
